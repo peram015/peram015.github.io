@@ -1,0 +1,21 @@
+body {
+    background-color: #f5d0f1;
+}
+h1 {
+    color: black;
+    font-family: IMPACT, sans-serif;
+    font-size: 70;
+    text-align: center;
+}
+p {
+    color: black;
+    font-family: helvetica, sans-serif;
+    font-size: 30;
+    text-align: center;
+}
+a {
+    color: black;
+    font-family: helvetica;
+    font-size: 25;
+    text-align: center;
+}
