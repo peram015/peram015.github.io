@@ -1,8 +1,7 @@
 console.log
 console.log("");
 
-var symbols = ["@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~", "@~ @~"]
-
+var symbols = ["@", "@-", "@--", "@- @-", "@-- @--", "@---", "@~~~", "@~", "@~ @~"]
 var pattern = "@~";
 
 for (var increment= 0; increment < symbols.length; increment++) {
@@ -11,7 +10,7 @@ for (var increment= 0; increment < symbols.length; increment++) {
     var ampersand = "";
     console.log(increment);
     
-    if (increment > 14)
+    if (increment > 30)
         for (var another = 0; another < 20; another++) {
             console.log(ampersand);
             ampersand = ampersand + ["-", "-"]
