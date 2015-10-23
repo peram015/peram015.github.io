@@ -11,7 +11,7 @@ for (var increment= 0; increment < symbols.length; increment++) {
     console.log(increment);
     
     if (increment > 30)
-        for (var another = 0; another < 20; another++) {
+        for (var another = 0; another < 10; another++) {
             console.log(ampersand);
             ampersand = ampersand + ["-", "-"]
             
