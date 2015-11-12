@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    
+}
+.white {
+    color: white;
+}
+
+.bigredbutton {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 20px;
+    top: 0px;
+    
+    

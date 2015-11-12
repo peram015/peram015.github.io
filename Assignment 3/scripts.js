@@ -1,6 +1,6 @@
 console.log
-console.log("");
 
+console.log("increasing roses");
 var symbols = ["@", "@-", "@--", "@- @-", "@-- @--", "@---", "@~~~", "@~", "@~ @~", "@- @-", "@-- @--", "@---", "@~~~", "@~", "@~ @~", "@- @-", "@-- @--", "@---", "@~~~", "@~", "@~ @~", "@- @-", "@-- @--", "@---", "@~~~", "@~", "@~ @~",]
 var pattern = "@~";
 
@@ -16,4 +16,12 @@ for (var increment= 0; increment < symbols.length; increment++) {
             ampersand = ampersand + ["-", "-"]
             
         }
+}
+
+function addnumbers(num1, num2) { 
+   var sum = (num1 + num2)
+   return sum; 
+   
+
+
 }

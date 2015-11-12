@@ -122,9 +122,9 @@ body {
     border-bottom: 300px solid #282422; 
     border-right: 40px solid transparent; 
     border-left: 40px solid transparent;
-    width: 160px;
+    width: 195px;
     position: fixed;
-    top: 230px;
+    top: 220px;
     right: 900px;
     -webkit-transform: rotate(65deg);
 }

@@ -1,0 +1,19 @@
+body {
+    background-color: #f5d0f1;
+}
+
+#container {
+    width:1000px;
+    position: fixed;
+    top: 100px;
+    right: 900px;
+    background-image: "papaya.gif"("path");
+    animation-name: fruit;
+    animation-duration: 5s;
+
+}
+
+@keyframes fruit {
+    from {right: 900px;}
+    to {right: 100px;}
+}
