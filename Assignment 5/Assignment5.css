@@ -2,18 +2,57 @@ body {
     background-color: #f5d0f1;
 }
 
-#container {
-    width:1000px;
-    position: fixed;
+img {
+    width:400px;
+    height:500px;
+    position:relative;
+    left: 0px;
     top: 100px;
-    right: 900px;
-    background-image: "papaya.gif"("path");
-    animation-name: fruit;
-    animation-duration: 5s;
-
+    
 }
 
-@keyframes fruit {
-    from {right: 900px;}
-    to {right: 100px;}
+.vagina {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 0px;
+    top: 100px;
+    filter: alpha(opacity=30);
+    display: none;
+}
+
+#secondcontainer {
+    position: relative;
+    -webkit-animation-name: vagina;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#container {
+    position: relative;
+    -webkit-animation-name: fruit;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+
+@-webkit-keyframes fruit {
+    0% {left:0px; top:100px; }
+    50% {left:750px; top: 100px;}
+    100% {left:0px; top:100px;}
+   
+}
+
+@-webkit-keyframes vagina {
+    0% {opacity: 0;}
+    50% {opacity: 0.3;}
+    60% {opacity: 0.4;}
+    70% {opacity: 0.5;}
+    75% {opacity: 0.6;}
+    80% {opacity: 0.7;}
+    85% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    10% {opacity: 1.0;}
+    
 }

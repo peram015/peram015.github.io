@@ -1,15 +1,16 @@
-$("Assignment5.css")
-$("papaya.gif")
-$("cat.gif")
-$("Assignment5.html")
+
+
+var shown = false;
 
 $("#container").click(function() {
-    if (clicked == false) {
-    $("#container").html("#container").css("background-image", "path");
-    clicked = true;
+    if (shown == false) {
+    $(".papaya").show();
+    $(".vagina").hide();
+    shown = true;
     } else {
-    $("#container").html("#container").css("background-image", "cat.gif");
-    clicked = false;
-    
+    $(".papaya").hide();
+    $(".vagina").show();
+    shown = false;
     }
 });
+    

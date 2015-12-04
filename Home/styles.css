@@ -13,19 +13,29 @@ p {
     font-size: 30;
     text-align: center;
 }
-a {
+a:link {
     color: black;
     font-family: helvetica;
     font-size: 25;
     text-align: center;
 }
+
+a:hover {
+    font-size: 30;
+}
 div {
     text-align:center;
 }
 
-img.displayed {
+.displayed {
+    width: 630px;
+    height: 470px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /**transform: skewY(25deg);*/
     
+}
+a:hover {
+    transform: skewY(25deg);
 }
