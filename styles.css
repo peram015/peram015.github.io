@@ -1,0 +1,455 @@
+html {
+  height: 100%;
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+  height: 160%;
+}
+body {
+  background-color: white;
+  color: black;
+  padding: 7%;
+  cursor: default;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 34px !important;
+  position:relative;
+  display: block;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+#name {
+  font-weight: bold;
+  line-height: 140%;
+  font-size: 35px;
+  height: 100%;
+  float: left;
+}
+
+#aboutme {
+  font-family: 'Karla', sans-serif !important;
+  padding-right: 30%;
+  font-size: 35px;
+  line-height: 140%;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  align-self: center;
+  padding: 0%;
+  height: 100%;
+}
+
+.grid-item1 {
+  display: grid;
+  background-color: white;
+  border: 0px;
+  padding-top: 39.5px;
+  padding-bottom: 39.5px;
+  padding-right: 39.5px;
+  padding-left: 157px;
+  font-size: 35px;
+  line-height: 140%;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  height: 530px;
+}
+
+.about, .work, .contact {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.about span {
+  line-height: 140%;
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+}
+
+.work span {
+  line-height: 140%;
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+
+.contact span {
+  line-height: 140%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.grid-item2 {
+  background-color: white;
+  border: 0px;
+  padding-top: 39.5px;
+  padding-bottom: 39.5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  text-align: left;
+  line-height: 140%;
+  display: inline-block;
+}
+
+.grid-item3 {
+  background-color: white;
+  border: 0px;
+  padding-top: 39.5px;
+  padding-bottom: 39.5px;
+  padding-left: 39.5px;
+  padding-right: 157px;
+  height: 530px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 3%;
+  line-height: 140%;
+}
+
+.loveseat_title:hover {
+  color: #201d56;
+  font-style: italic;
+}
+.grounded_title:hover {
+  color: #28544a;
+  font-style: italic;
+}
+
+.swarovski_title:hover {
+  color: #d9deda;
+  font-style: italic;
+}
+
+.prada_title:hover {
+  color: #ebcad4;
+  font-style: italic;
+}
+
+.matisse_title:hover {
+  color: #394ca0;
+  font-style: italic;
+}
+
+.clothes_title:hover {
+  color: #630038;
+  font-style: italic;
+}
+
+#ls_intro {
+  font-size: 34px;
+  color: #201d56;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#ls_intro2, #ls_bold {
+  padding-top: 2%;
+  font-size: 34px;
+  color: #67232b;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#ls_tag {
+  color: #201d56;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#ls_tag:hover, #ls_tag2:hover, #ls_intro:hover, #ls_intro2:hover {
+  font-style: italic;
+}
+
+#ls_tag2 {
+  color: #67232b;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work {
+  line-height: 140%;
+  font-size: 35px;
+}
+
+.content {
+  width: 100%;
+  float: right;
+  overflow: scroll;
+  color: black;
+}
+
+ol.content, .content ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: black;
+  line-height: 140%;
+}
+
+p {
+  font-weight: lighter;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+}
+
+#index {
+  opacity: 0%;
+  color: white;
+}
+
+#type {
+  color: white;
+}
+
+#contact {
+  line-height: 140%;
+  padding-top: 10%;
+}
+
+.call1, .email2, .resume3, {
+  line-height: 140%;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  font-size: 34px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.call1:hover {
+  font-style: italic;
+}
+
+.email2:hover {
+  font-style: italic;
+}
+
+.resume3:hover {
+  font-style: italic;
+}
+
+#work1 {
+  background-color: #fff6ed;
+  color: #201d56;
+  font-weight: bold;
+}
+
+.title1 {
+  color: #201d56;
+  line-height: 140%;
+  font-size: 35px;
+}
+
+.title2 {
+  line-height: 140%;
+  font-size: 35px;
+  font-weight: bold;
+}
+.title1, .title2, .title3 {
+  padding-right: 10%;
+  display: inline-table;
+}
+#description {
+  padding-top: 5%;
+  padding-right: 30%;
+  font-size: 25px;
+  display: inline-block;
+  line-height: 140%;
+}
+
+#display-image {
+  padding-top: 5%;
+  width: 50%;
+  float: left;
+}
+
+#side-image {
+  padding-top: 5%;
+  width: 47%;
+  float: left;
+}
+
+#side-image2 {
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 47%;
+
+}
+
+#square-image, #intro-image {
+  padding-top: 5%;
+  width: 80%;
+  float: left;
+}
+
+#clothes-image {
+  padding-top: 10%;
+  width: 65%;
+  float: left;
+}
+
+#gif-image {
+  padding-top: 5%;
+  padding-left: 22%;
+  width: 60%;
+}
+
+.image1, .image2 {
+  padding-top: 1%;
+  width: 20%;
+  position: absolute;
+  display: none;
+}
+
+#ls_tag:hover + .image1 {
+  display: block;
+}
+
+#ls_tag2:hover + .image2 {
+  display: block;
+}
+
+#second-image {
+  padding-top:5%;
+  width: 100%;
+}
+
+#third-image {
+  padding-top: 5%;
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+#work2 {
+  background-color: #fff0eb;
+  color: #67232b;
+}
+
+#work2 span {
+  font-weight: bold;
+}
+
+#tag {
+  padding-top: 20%;
+  padding-left: 7%;
+  padding-right: 7%;
+  align-content: center;
+  font-size: 19px;
+  position: relative;
+  display: grid;
+}
+
+.hover {
+  color: #67232b;
+}
+
+.hover:hover {
+  color: #201d56;
+  font-weight: bold;
+}
+
+.hover2 {
+  color: #201d56;
+}
+
+.hover2:hover {
+  color: #67232b;
+  font-weight: bold;
+}
+
+#bold {
+  font-weight: bold;
+  display: inline;
+}
+
+#work3 {
+  background-color: #d9deda;
+  color: #202314;
+}
+
+.title3 {
+  color: #202314;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work4 {
+  background-color: #ffe6f0;
+  color: #352527;
+}
+
+.title4 {
+  color: #352527;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work5 {
+  background-color: #f9fbe4;
+  color: #28544a;
+}
+
+.title5 {
+  color: #28544a;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work6 {
+  background-color: #e4edf6;
+  color: #630038;
+}
+
+.title6 {
+  color: #630038;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work7 {
+  background-color: #e5b900;
+  color: #d10000;
+}
+
+.title7 {
+  color: #d10000;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#work8 {
+  background-color: #e8e5e3;
+  color: #394ca0;
+}
+
+.title8 {
+  color: #394ca0;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+#p_enhance {
+  font-style: italic;
+}
+
+#example {
+  display: inline-block;
+}
+
+#home {
+  font-weight: bold;
+  line-height: 140%;
+}
