@@ -42,6 +42,7 @@ body {
 
 #am_hidesp {
   color: white;
+  display: inline;
 }
 
 #am_hide {
@@ -348,23 +349,32 @@ p {
 }
 
 #contact1 {
-  line-height: 170%;
+  line-height: 140%;
   font-weight: bold;
 }
 
 #contact {
-  line-height: 170%;
-  padding-top: 10%;
+  font-weight: bold;
+  line-height: 140%;
+  padding-top: 15%;
+
 }
 
 .call1, .email2, .resume3 {
+  padding-top: 2%;
   background-color: white;
   color: black;
   font-weight: bold;
   font-size: 34px;
+  text-decoration: none;
+}
+
+.call1:hover, .email2:hover, .resume3:hover {
   text-decoration: underline;
   text-underline-position: under;
 }
+
+
 
 #work1 {
   background-color: #fff6ed;
