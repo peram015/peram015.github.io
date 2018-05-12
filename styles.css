@@ -109,6 +109,39 @@ body {
   text-decoration-color: #2f392c;
 }
 
+#tabs_grounded {
+  text-decoration: none;
+  color: #28544a;
+}
+
+#tabs_grounded:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #28544a;
+}
+
+#tabs_loveseat {
+  text-decoration: none;
+  color: #67232b;
+}
+
+#tabs_loveseat:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #67232b;
+}
+
+#tabs_artist {
+  text-decoration: none;
+  color: #201d56;
+}
+
+#tabs_artist:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #201d56;
+}
+
 #aboutme {
   font-family: 'Karla', sans-serif !important;
   padding-right: 30%;
