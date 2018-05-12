@@ -5,6 +5,7 @@ html {
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
   height: 160%;
 }
+
 body {
   background-color: white;
   color: black;
